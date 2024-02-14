@@ -1,0 +1,12 @@
+ul {
+  margin: 0;
+}
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.list-unstyled li:not(:first-child)::before {
+  content: "‧";
+  margin-right: 5px;
+}
